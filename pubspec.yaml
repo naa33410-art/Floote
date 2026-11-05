@@ -1,0 +1,24 @@
+name: electro_scanner
+description: Scanner acústico, magnético e Bluetooth BLE para inspeção auxiliar.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  record: ^6.0.0
+  sensors_plus: ^6.1.1
+  flutter_blue_plus: ^1.35.5
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
